@@ -1,0 +1,137 @@
+* {
+  body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+}
+
+.App {
+  margin-top: 20px;
+  width: fit-content;
+  padding-left: 20px;
+}
+
+.appContainer {
+  /* position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  /* border-radius: 5px; */
+  padding: 10px;
+  margin: 10px;
+  padding-top: 3px;
+  border-left-style: solid;
+  border-left-width: thin;
+  
+
+}
+
+.commentContainer {
+  margin-top: 15px;
+  background-color: #dedddd;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  width: auto;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+.commentContainer:hover {
+  background-color: #d3d3d3bf;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 5px;
+  background-color: #fffcfc;
+  align-items: center;
+
+}
+
+.inputContainer>span {
+  margin-top: 5px;
+}
+
+.inputContainer__input {
+  margin: 6px 0 0px 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #e7e7e7;
+  width: 500px;
+  border: none;
+  text-decoration: none;
+}
+
+.first_input {
+  margin: 0;
+}
+
+.commentContainer>span {
+  margin: 0 5px;
+}
+
+.reply {
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #6590FF;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.remove {
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #E33E38;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.comment {
+  color: #ffffff;
+  background-color: #569dff;
+  letter-spacing: 0.8px;
+}
+.submitButton{
+  letter-spacing: 0.8px;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.LikeButton {
+  text-decoration: none;
+  border: none;
+  background-color: #dedddd;
+}
+
+.userImages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: end;
+  place-self: normal;
+  gap: 10px;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.editText {
+  font-size: medium;
+  font-weight: 100;
+  padding-left: 50px;
+  margin: 10px 20px;
+
+}
