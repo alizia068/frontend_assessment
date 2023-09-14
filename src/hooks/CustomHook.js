@@ -17,8 +17,6 @@ const useCustomHook = () => {
     return { ...tree };
   };
 
-
-
   const deleteNode = (tree, id) => {
     for (let i = 0; i < tree.items.length; i++) {
       const currentItem = tree.items[i];
